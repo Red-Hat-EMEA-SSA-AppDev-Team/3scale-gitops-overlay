@@ -12,5 +12,5 @@ rules:
   resources: ["secrets"]
   verbs: ["get", "list", "create", "update", "delete", "patch", "watch"]
 - apiGroups: ["capabilities.3scale.net"]
-  resources: ["activedocs", "applications", "backends", "custompolicydefinitions","developeraccounts", "developerusers", "openapis", "products", "proxyconfigpromotes"]
+  resources: ["activedocs", "applications", "applicationauths", "backends", "custompolicydefinitions","developeraccounts", "developerusers", "openapis", "products", "proxyconfigpromotes"]
   verbs: ["get", "list", "create", "update", "delete", "patch", "watch"]
